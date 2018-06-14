@@ -1,0 +1,27 @@
+{
+  "name": "try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boiyaa/try.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boiyaa/try/issues"
+  },
+  "homepage": "https://github.com/boiyaa/try#readme",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
