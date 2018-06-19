@@ -7,22 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "next start -p 8000",
+    "start": "next start",
     "static-build": "next build && next export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/boiyaa/try.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/boiyaa/try/issues"
-  },
-  "homepage": "https://github.com/boiyaa/try#readme",
   "dependencies": {
     "next": "^6.0.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "es3ify-loader": "^0.2.2",
+    "path": "^0.12.7"
   }
 }

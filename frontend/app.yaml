@@ -1,0 +1,19 @@
+# runtime: nodejs8
+runtime: php55
+
+handlers:
+  -
+    url: /(.*\.js)$
+    static_files: out/\1
+    upload: out/.*\.js$
+  -
+    url: /(.+?)/$
+    static_files: out/\1/index.html
+    upload: out/.*/index.html$
+  -
+    url: /
+    static_files: out/index.html
+    upload: out/index.html
+
+skip_files:
+  - ^(?!.*out).*$
